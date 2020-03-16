@@ -1,0 +1,81 @@
+h1{
+    text-align: center;
+    background-color: #6d8adbc7;
+    padding: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+   height: 5px;
+}
+.mycontiner{
+    background-color: #dae4ff;
+    width: 25%;
+    height: 200px;
+    padding: 90px;
+    margin-left: 100px;
+    margin-top: 85px;
+float: left;
+    
+}
+body{
+    background-color:#eee;
+   
+}
+h2{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    padding-right: 30px;
+   
+}
+#myform{
+    padding-top: 30px;
+    padding-bottom: 5px;
+    border-radius: 90px;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    color: black;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 30px;
+  }
+  #mydiv{
+    padding-top: 30px;
+    padding-bottom: 5px;
+    border-radius: 90px;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    border: 1px solid #ccc;
+    color: black;
+  }
+  input [type=date] , select{
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 30px;
+  }
+  /* input [type=submit], select{
+
+  width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 30px;
+  } */
+
