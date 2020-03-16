@@ -48,16 +48,27 @@ input[type=text], select {
     height: 30px;
   }
   #mydiv{
-    padding-top: 30px;
+    padding-top: 25px;
     padding-bottom: 5px;
     border-radius: 90px;
     font-family: 'Roboto', sans-serif;
     font-size: large;
     border: 1px solid #ccc;
     color: black;
+    box-sizing: border-box;
   }
-  input [type=date] , select{
-
+  .button {
+    background-color:#6d8adbc7 ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+margin: 10px;
+padding-bottom: 20px;
+    cursor: pointer;
+  }
+  input[type=date], select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -67,15 +78,3 @@ input[type=text], select {
     box-sizing: border-box;
     height: 30px;
   }
-  /* input [type=submit], select{
-
-  width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    height: 30px;
-  } */
-

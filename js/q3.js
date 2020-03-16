@@ -5,6 +5,7 @@ function form(likes,date){
 }
 form.prototype.render=function()
 function setitem(){
+    console.log(setitem)
     for (var i =0;i <form.length; i++){
     }
     localStorage.setItem('form',json.stringify(form));
@@ -23,6 +24,7 @@ function renderlist(){
 }
 
  var myForm=document.getElementById('myform');
+ console.log(myForm);
 myForm.addEventListener("submit", function(event){
     var likes = event.target.likes.value;
     var date = event.value.date.value;
